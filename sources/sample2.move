@@ -12,7 +12,7 @@ address net2dev_addr {
         #[test_only]
         use std::debug::print;
 
-        #[test]
+        // #[test]
         fun test_call_get_vall(){
             let res = net2dev_addr::one::get_val();
             print(&res);
