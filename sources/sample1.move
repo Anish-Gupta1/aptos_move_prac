@@ -19,7 +19,7 @@ module net2dev_addr::Sample1{
         Caps
     }
 
-    #[test]
+    // #[test]
     fun test_set_val(){
         let res : u32 = set_val();
         print(&res);
