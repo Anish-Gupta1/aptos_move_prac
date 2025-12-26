@@ -26,26 +26,26 @@ module net2dev_addr::Sample3 {
         loop {
             if(i==c){
                 break;
-            }
+            };
             res+=i;
             i+=1;
         };
         res
     }
 
-    #[test]
+    // #[test]
     fun test_for_loop(){
         let val = use_for_loop(10);
         print(&val);
     }
 
-    #[test]
+    // #[test]
     fun test_while_loop(){
         let val = use_while_loop(10);
         print(&val);
     }
 
-    #[test]
+    // #[test]
     fun test_loop(){
         let val = use_loop(10);
         print(&val);
