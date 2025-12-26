@@ -1,0 +1,15 @@
+[package]
+name = "move_tut"
+version = "1.0.0"
+authors = []
+
+[addresses]
+net2dev_addr = "b1434e5b30a2adc4ca05fb56877e86205e66b99277cfa849e531b687cc8f84f2"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
