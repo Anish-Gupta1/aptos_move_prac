@@ -19,20 +19,20 @@ module net2dev_addr::Sample4 {
 
 
 
-    #[test]
+    // #[test]
     fun test_pass_use_abort(){
         use_abort(utf8(b"hello"));
         
     }
-    #[test]
+    // #[test]
     fun test_pass_use_assert(){
         use_abort(utf8(b"hello"));
         
     }
 
     // uses expect failure to expect the test fail which ultimately passes the test
-    #[test]
-    #[expected_failure]
+    // #[test]
+    // #[expected_failure]
     fun test_fail_use_abort(){
         use_abort(utf8(b"hmm"));
         

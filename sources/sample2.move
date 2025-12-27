@@ -9,7 +9,7 @@ address net2dev_addr {
 
     module two {
         
-        #[test_only]
+        // #[test_only]
         use std::debug::print;
 
         // #[test]
